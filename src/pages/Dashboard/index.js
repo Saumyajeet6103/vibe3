@@ -16,7 +16,8 @@ const DashboardPage = () => {
           <div className="bg-gray_50 border-bw15 border-gray_100 border-solid flex flex-col gap-[50px] items-start justify-start p-[18px] w-[100%]">
             <div className="flex flex-row gap-[14px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[16px] mt-[16px] md:w-[100%] sm:w-[100%] w-[67%]">
               <Img
-                src="images/img_ellipse1015.png"
+                src="images/logo.png"
+                
                 className="h-[56px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[56px]"
                 alt="Ellipse1015"
               />
@@ -26,13 +27,13 @@ const DashboardPage = () => {
                   as="h5"
                   variant="h5"
                 >
-                  Kevin Cranel
+                  Vibe.3
                 </Text>
                 <Text
                   className="font-normal not-italic text-gray_500 text-left tracking-ls014 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body1"
                 >
-                  @kecrane
+                @NASAF
                 </Text>
               </div>
             </div>
@@ -134,7 +135,7 @@ const DashboardPage = () => {
                   >
                     <div className="flex flex-row gap-[18px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[6px] md:w-[100%] sm:w-[100%] w-[50%]">
                       <Img
-                        src="images/img_judge.svg"
+                        src="images/upload.svg"
                         className="h-[24px] w-[24px]"
                         alt="judge"
                       />
@@ -143,7 +144,7 @@ const DashboardPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Active Bid
+                       Upload
                       </Text>
                     </div>
                   </div>
@@ -311,19 +312,19 @@ const DashboardPage = () => {
             <div className="flex md:flex-1 sm:flex-1 flex-row font-urbanist gap-[30px] items-center justify-center md:mt-[0] sm:mt-[0] my-[2px] md:w-[100%] sm:w-[100%] w-[auto]">
               <Button
                 className="flex items-center justify-center text-center"
-                leftIcon={
-                  <Img
-                    src="images/img_sort.svg"
-                    className="mr-[10px] text-center"
-                    alt="sort"
-                  />
-                }
+                // leftIcon={
+                //   <Img
+                //     src="images/img_sort.svg"
+                //     className="mr-[10px] text-center"
+                //     alt="sort"
+                //   />
+                // }
                 shape="RoundedBorder10"
                 size="xl"
                 variant="OutlineGray100"
               >
                 <div className="bg-transparent cursor-pointer font-medium text-[16px] text-black_900 text-left tracking-ls016 md:tracking-ls1 sm:tracking-ls1">
-                  3,421 ETH
+                  Connect
                 </div>
               </Button>
               <Button
@@ -338,18 +339,18 @@ const DashboardPage = () => {
                   alt="lock"
                 />
               </Button>
-              <div className="flex flex-row gap-[12px] items-center justify-between w-[27%]">
-                <Img
+              {/* <div className="flex flex-row gap-[12px] items-center justify-between w-[27%]">
+                { <Img
                   src="images/img_ellipse1015.png"
                   className="h-[52px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[52px]"
                   alt="Ellipse1020"
                 />
-                <Img
-                  src="images/img_arrowdown.svg"
+                <Img 
+                  { src="images/img_arrowdown.svg"
                   className="h-[24px] w-[24px]"
                   alt="arrowdown"
-                />
-              </div>
+                /> }
+              </div>  */}
             </div>
           </div>
           <div className="flex md:flex-col sm:flex-col flex-row font-urbanist gap-[34px] items-center justify-between md:w-[100%] sm:w-[100%] w-[98%]">
@@ -358,7 +359,8 @@ const DashboardPage = () => {
                 <div
                   className="bg-cover bg-no-repeat flex flex-col items-center justify-start rounded-radius15 w-[100%]"
                   style={{
-                    backgroundImage: "url('images/img_group33913.png')",
+                    backgroundImage: "url('images/headphones.png')",
+
                   }}
                 >
                   <div className="bg-gradient  flex flex-col gap-[34px] items-start justify-center p-[30px] sm:px-[20px] rounded-radius15 w-[100%]">
